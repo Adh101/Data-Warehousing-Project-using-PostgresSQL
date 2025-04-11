@@ -1,24 +1,15 @@
 /*
 ===============================================================================
-Queries and Quality Checks
+Quality Checks
 ===============================================================================
 Script Purpose:
-    This script prvides step by step procedure performed in gold layer and performs various quality checks for data consistency, accuracy, 
-    and standardization across the 'gold' layer. It includes checks for:
-    - Null or duplicate primary keys.
-    - Unwanted spaces in string fields.
-    - Data standardization and consistency.
-    - Invalid date ranges and orders.
-    - Data consistency between related fields.
-
-Usage Notes:
-    - Run these checks after data loading gold Layer.
-    - Investigate and resolve any discrepancies found during the checks.
+    This script provides step by step procedure in the gold layer and performs quality checks to validate the integrity, consistency, 
+    and accuracy of the Gold Layer. These checks ensure:
+    - Uniqueness of surrogate keys in dimension tables.
+    - Referential integrity between fact and dimension tables.
+    - Validation of relationships in the data model for analytical purposes.
 ===============================================================================
 */
-
-
-
 select *
 from silver.crm_cust_info; --Master Customer Table
 
