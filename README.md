@@ -27,12 +27,11 @@ This project involves:
 
 ## 🛠️ Important Links & Tools:
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
-- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 - **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
+- **[DBeaver]((https://dbeaver.io/download/)):** GUI for managing and interacting with databases.
 - **[Notion](https://www.notion.com/):** All-in-one tool for project management and organization.
-- **[Notion Project Steps]([https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4](https://www.notion.so/Data-Warehousing-Project-1a4017f50d2580d2a6b2c456f1c99e4e?showMoveTo=true&saveParent=true)):** Access to All Project Phases and Tasks.
+  
+- **[Notion Project Page](https://www.notion.so/Data-Warehousing-Project-using-PostgreSQL-1a4017f50d2580d2a6b2c456f1c99e4e?showMoveTo=true&saveParent=true):** Access to All Project Phases and Tasks.
 
 ---
 
