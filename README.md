@@ -50,15 +50,31 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
+## 🔄 Automated Data Pipeline: PostgreSQL → Google Sheets → Tableau Public
+
+This project expands the gold-layer of the data warehouse by integrating a fully automated BI pipeline:
+
+### 📦 Tools & Technologies
+- **PostgreSQL** – Gold-layer views (`fact_sales`, `dim_customers`, `dim_products`)
+- **Python + gspread** – Automation script to push data to Google Sheets
+- **Google Sheets** – Serves as data source for Tableau Public
+- **Tableau Public** – Final interactive dashboard for analysis
+
+---
+
 ### BI: Analytics & Reporting (Data Analysis)
 
 #### Objective
-Develop SQL-based analytics to deliver detailed insights into:
+Develop Tableau based analytics to deliver detailed insights into:
 - **Customer Behavior**
 - **Product Performance**
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+
+### 📈 Dashboard Preview
+
+![Dashboard Screenshot](docs/dashboard_screenshot.png)
 
 ## 📂 Repository Structure
 ```
@@ -70,15 +86,18 @@ data-warehouse-project/
 │   ├── data_architecture.png           # Draw.io file shows the project's architecture        
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow_diagram.png           # Draw.io file for the data flow diagram
-│   ├── data_schema_model.png           # Draw.io file for data models (star schema)
-│
+│   ├── data_schema_model.png          # Draw.io file for data models (star schema)
+│   ├── dashboard_screenshot.png        # Dashboard Image created in Tableau
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
 │
 ├── tests/                              # Test scripts and quality files
-│
+├── python/
+│   ├── upload_to_gsheets.py            # Script to upload data to Google Sheets
+├── tableau/
+│   ├── sales_dashboard.twbx            #Sales Dashboard in Tableau
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git   
