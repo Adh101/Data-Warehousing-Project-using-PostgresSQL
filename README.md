@@ -98,6 +98,10 @@ These insights empower stakeholders with key business metrics, enabling strategi
    ```bash
    pip install -r requirements.txt
 
+2. Set up your creds.json from Google Sheets API
+3. Run:
+   
+
 ## 📂 Repository Structure
 ```
 data-warehouse-project/
