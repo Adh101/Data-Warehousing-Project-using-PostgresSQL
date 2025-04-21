@@ -2,7 +2,7 @@
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀 
 
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.This projects walks through end to end data engineering works to build the complete data warehouse ready for business use.
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.This projects walks through end to end data engineering works to build the complete data warehouse ready for business use. Further, this projects attempts to build an automated pipeline from PostgreSQL to Tableau Public using Google Sheets API and create a interactive dashboards to analyze the sales performance.
 
 ## 🏗️ Data Architecture
 
