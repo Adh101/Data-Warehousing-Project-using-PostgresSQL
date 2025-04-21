@@ -1,4 +1,4 @@
-# End to End Data Engineering Project using PostgreSQL
+# End to End Data Engineering Project using PostgreSQL, Python, Google Sheets API & Tableau
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀 
 
