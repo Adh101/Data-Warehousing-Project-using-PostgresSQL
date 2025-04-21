@@ -77,6 +77,27 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ![Dashboard Screenshot](docs/dashboard_screenshot.png)
 
+### 🌐 Tableau Public Link
+
+👉 [View the Live Dashboard]([https://public.tableau.com/your-final-url](https://public.tableau.com/app/profile/atish.dhamala/viz/Book2_17450313115080_17450901047300/PeformanceDashboard#1))
+
+### 📜 Key Features
+
+- Automated upload of 3 fact/dim views to Google Sheets
+- Dynamic Google Sheets update via Python
+- KPI metrics: Total Sales, Average Order Value, Orders by Region
+- Clean, interactive dashboard built in Tableau
+
+### 🚀 Scripts
+
+- `python/upload_to_gsheets.py`: Automates the sync from PostgreSQL to Google Sheets
+
+### 🧪 Setup & Run
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
 ## 📂 Repository Structure
 ```
 data-warehouse-project/
