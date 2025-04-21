@@ -81,7 +81,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ### 🌐 Tableau Public Link
 
-👉 [View the Live Dashboard]([https://public.tableau.com/your-final-url](https://public.tableau.com/app/profile/atish.dhamala/viz/Book2_17450313115080_17450901047300/PeformanceDashboard#1))
+👉 [View the Live Dashboard](https://public.tableau.com/app/profile/atish.dhamala/viz/Book2_17450313115080_17450901047300/PeformanceDashboard#1)
 
 ### 📜 Key Features
 
