@@ -100,6 +100,8 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 2. Set up your creds.json from Google Sheets API
 3. Run:
+      ```bash
+   python python/upload_to_gsheets.py
    
 
 ## 📂 Repository Structure
