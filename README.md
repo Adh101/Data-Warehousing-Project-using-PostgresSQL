@@ -61,6 +61,8 @@ This project expands the gold-layer of the data warehouse by integrating a fully
 - **Google Sheets** – Serves as data source for Tableau Public
 - **Tableau Public** – Final interactive dashboard for analysis
 
+![Pipeline Overview](docs/postgresql_to_tableau.png)
+
 ---
 
 ### BI: Analytics & Reporting (Data Analysis)
